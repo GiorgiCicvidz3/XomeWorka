@@ -1,0 +1,11 @@
+1) python -m venv env რათა შევქმნათ ვირტუალური გარემო
+2) env\Scripts\Activate.ps1 რომ გავააქტიუროთ ჩვენი ვირტუალური გარემო
+      Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Bypass იმ შემთხვევაში თუ კი გვექნება პრობლემა
+      აქტივაციასთან
+3)pip install Django რომ დავაინსტალიროთ Django 
+4)django-admin startproject project_name რათა შევქმნათ პროექტისათვის საჭირო მასალები
+5)cd project_name რომ გადავიდეთ ამ პროექტის Directory_ში
+6)python manage.py startapp app_name რომ შევქმნაღ აპპისთვის საჭირო მასალა
+7)python manage.py migration ვაკეთებთ მიგრაციას ანუ ვქმნით databases
+8)python manage.py runserver ვუშვებთ უკვე შექმნილ პროექტს
+9)ეს გამომრჩა შევდივართ პროექტის საქაყალდეში შემდეგ settings.py და ვპოულობთ INSTALLED_APPS = [და აქ ვწერთ ჩვენი აპის სახელს მაგ shop,]
